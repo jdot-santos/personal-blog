@@ -17,7 +17,6 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # For Hugo versions below 0.128.0, uncomment the line below and comment out the [pagination] block above:
 #paginate = 7 # Sets the number of items per page for older versions.
 
-
 #-------------------------------
 # Main Menu
 [menu]
@@ -52,11 +51,11 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     url = "/"
     weight = 1
 
-  [[menu.footer]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 2
+#  [[menu.footer]]
+#    identifier = "contact"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 2
 
   [[menu.footer]]
     identifier = "blog"
