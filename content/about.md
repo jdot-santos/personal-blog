@@ -1,25 +1,10 @@
 ---
 title: About
-image: 'https://placehold.co/1200x800'
+image: '/images/profile-photo-02.jpeg'
 ---
-In operant conditioning, a reinforcement (by reward) or instead a punishment is given after a given behavior, changing the frequency and/or form of that behavior. Stimulus present when the behavior/consequence occurs come to control these behavior modifications.
+I assist software engineering teams as a Software and Site Reliability Engineer by designing and developing back-end systems, ensuring that applications and systems are reliable, scalable, available, and performant.
 
-> Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.
+> "The world can’t tell you who you are. You’ve just got to figure out who you are and be there for better or worse." 
+> -Dave Chappelle
 
-Observational learning is learning that occurs through observing the behavior of others. It is a form of social learning which takes various forms, based on various processes. In humans, this form of learning seems to not need reinforcement to occur, but instead, requires a social model such as a parent, sibling, friend, or teacher with surroundings.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="https://placehold.co/1200x800" loading="lazy">
-    <img src="https://placehold.co/1200x800" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://placehold.co/1200x800" target="_blank">Unsplash</a></em>
-</div>
-
-Nonformal learning is organized learning outside the formal learning system. For example, learning by coming together with people with similar interests and exchanging viewpoints, in clubs or in (international) youth organizations, workshops.
-
-Informal learning is less structured than "nonformal" one. It may occur through the experience of day-to-day situations (for example, one would learn to look ahead while walking because of the danger inherent in not paying attention to where one is going). It is learning from life, during a meal at the table with parents, play, exploring, etc.
-
-<p><iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
-
-The educational system may use a combination of formal, informal, and nonformal learning methods. The UN and EU recognize these different forms of learning (cf. links below). In some schools, students can get points that count in the formal-learning systems if they get work done in informal-learning circuits. They may be given time to assist international youth workshops and training courses, on the condition they prepare, contribute, share, and can prove this offered valuable new insight, helped to acquire new skills, a place to experience.
+I'm a software engineer that has taken the role of a Site Reliability Engineer for a few years now. As an SRE, I led an effort to convert teams and on-call rotations to an alerting app called Opsgenie, I improved visibility in how applications deployed in AWS are scaling, I was the lead engineer in making sure our development teams that created new apps and features follow a production readiness review process, I helped manage our infrastructure in AWS by way of Terraform, Python, Gitlab, and Jenkins, and I automated a bunch of things. Lately, I've been diving into an am passionate about Machine Learning and Artificial Intelligence. I've been known by my coworkers to be approachable, collaborative, thorough, able to bridge the gap between business requirements and technical challenges to deliver good solutions, and that I'm willing to learn. On the side, I'm a drummer for a reggae/hawaiian band and I'm working on being a bodybuilder.

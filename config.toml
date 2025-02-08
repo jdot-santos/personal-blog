@@ -11,11 +11,11 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 # For Hugo versions 0.128.0 and above, use the following settings:
 # This will set the number of items per page for newer versions.
-#[pagination]
-#  pagerSize = 7
+[pagination]
+  pagerSize = 7
 
 # For Hugo versions below 0.128.0, uncomment the line below and comment out the [pagination] block above:
-paginate = 7 # Sets the number of items per page for older versions.
+#paginate = 7 # Sets the number of items per page for older versions.
 
 
 #-------------------------------
@@ -33,11 +33,11 @@ paginate = 7 # Sets the number of items per page for older versions.
     url = "/posts/"
     weight = 2
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
+#  [[menu.main]]
+#    identifier = "contact"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 3
 
   [[menu.main]]
     identifier = "about"
@@ -95,31 +95,24 @@ paginate = 7 # Sets the number of items per page for older versions.
   blog__description = ""
 
 
-#-------------------------------
-# Videos Section Settings
-[params.videos]
-  enable = true
-  videos__title = "Latest Videos"
-  videos__description = ""
-
 
 #-------------------------------
 # Tag Section Settings
 [params.tag]
   enable = true
-  tag = "travel" # To display the tag section, specify your favorite tag.
+  tag = "software-engineering" # To display the tag section, specify your favorite tag.
 
 
 #-------------------------------
 # Author Section Settings
 [params.author_section]
-  enable = false
+  enable = true
   author__section__title = "Hello, my name is James. I’m a Site Reliability Engineer, Bodybuilder, and drummer."
   author__section__description = ""
   aurhor__section__button__text = "More About Me"
   aurhor__section__button__link = "/about"
-  author__section__big__image = ""
-  author__section__small__image = ""
+  author__section__big__image = "/images/profile-photo-03.jpg"
+  author__section__small__image = "/images/profile-photo-01.jpeg"
   author__section__image__alt = "James Santos-Calacat"
 
 
