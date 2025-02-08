@@ -1,0 +1,51 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo temporary and cache files
+.hugo_build.lock
+.hugo_cache/
+hugo_stats.yaml
+hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+/hugo.log        # Debug logs (if enabled)
+/npm-debug.log   # npm logs (if using npm scripts)
+/yarn-error.log  # Yarn logs (if using Yarn for frontend assets)
+
+# Node.js dependencies (if using JavaScript for additional functionality)
+node_modules/
+
+# Python cache files (if using Python scripts)
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.tmp
+
+# IDE/Editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Deployment files (if using GitHub Pages or other CI/CD workflows)
+gh-pages/
+gh-pages.zip
+/github/workflows/
+/.deploy*/      # Temporary deployment directories (if used)
+/.cache/        # Cache files that shouldn't be tracked
+
+# Other miscellaneous files
+*.lock
+*.gz
