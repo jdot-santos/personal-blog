@@ -1,4 +1,4 @@
 ---
 title: Blog
-description: Mria blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!
+description: A collection of insights on software engineering, site reliability engineering, bodybuilding, and drumming. From technical deep dives to training strategies, this blog shares lessons learned and experiences across my passions.   
 ---

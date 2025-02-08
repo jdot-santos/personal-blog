@@ -34,60 +34,41 @@ paginate = 7 # Sets the number of items per page for older versions.
     weight = 2
 
   [[menu.main]]
-    identifier = "authors"
-    name = "Authors"
-    url = "/authors/"
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 3
 
   [[menu.main]]
-    identifier = "videos"
-    name = "Videos"
-    url = "/videos/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 4
-    hasChildren = true
 
-      [[menu.main]]
-        parent = "Pages"
-        name = "About"
-        url = "/about/"
-        weight = 1
+  # Footer Menu
+  [[menu.footer]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
 
-      [[menu.main]]
-        parent = "Pages"
-        name = "Contact"
-        url = "/contact/"
-        weight = 2
+  [[menu.footer]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
 
-      [[menu.main]]
-        parent = "Pages"
-        name = "Elements"
-        url = "/elements/"
-        weight = 3
+  [[menu.footer]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
 
-    # Footer Menu
-    [[menu.footer]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 1
-
-    [[menu.footer]]
-      identifier = "about"
-      name = "About"
-      url = "/about/"
-      weight = 2
-
-    [[menu.footer]]
-      identifier = "contact"
-      name = "Contact"
-      url = "/contact/"
-      weight = 3
-
-    [[menu.footer]]
-      identifier = "elements"
-      name = "Elements"
-      url = "/elements/"
-      weight = 4
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
 
 
 [params]
@@ -132,7 +113,7 @@ paginate = 7 # Sets the number of items per page for older versions.
 #-------------------------------
 # Author Section Settings
 [params.author_section]
-  enable = true
+  enable = false
   author__section__title = "Hello, my name is James. I’m a Site Reliability Engineer, Bodybuilder, and drummer."
   author__section__description = ""
   aurhor__section__button__text = "More About Me"
