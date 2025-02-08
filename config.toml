@@ -98,7 +98,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Tag Section Settings
 [params.tag]
-  enable = true
+  enable = false # set to true once I have a blog post written
   tag = "software-engineering" # To display the tag section, specify your favorite tag.
 
 
