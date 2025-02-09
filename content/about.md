@@ -1,6 +1,6 @@
 ---
 title: About
-image: '/images/profile-photo-02.jpeg'
+image: '/images/profile-photo-02.jpg'
 ---
 I assist software engineering teams as a Software and Site Reliability Engineer by designing and developing back-end systems, ensuring that applications and systems are reliable, scalable, available, and performant.
 
