@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "http://jsantosc.com/"
+baseURL = "http://jdot-santos.github.io/personal-blog/"
 languageCode = "en-us"
 title = "JSC"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
