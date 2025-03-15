@@ -3,7 +3,7 @@ title: Introduction to Content Delivery Networks
 description: Overview of Content Delivery Networks, or CDNs.
 date: 2025-03-12 22:19:00 -0700 # date affects if it shows up or not
 authors: [jsantos]
-image: "https://placehold.co/1200x800?text=Intro+To+CDNs"
+image: "/personal-blog/images/intro-to-cdns-hero.png"
 tags: [cdn, fastly, aws, azure, akamai, cloudflare, microsoft, amazon]
 tags_color: '#b77be3'
 featured: true
@@ -19,16 +19,18 @@ You might be wondering, what exactly is a CDN? Imagine your website is a famous 
 
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
+    participant Client
+    participant CDN
+    participant Origin
+
+    Client->>CDN: Request content
+    alt Cached at CDN
+        CDN-->>Client: Return cached content
+    else Not cached
+        CDN->>Origin: Fetch content
+        Origin-->>CDN: Return content
+        CDN-->>Client: Return content
     end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
 ```
 
 ### Why CDNs Matter in Modern Web Applications
