@@ -37,6 +37,24 @@
 
   {{ partial "javascripts.html" . }}
 
+  <!-- mermaid support -->
+  {{ if .Store.Get "hasMermaid" }}
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "base",
+        themeVariables: {
+          primaryColor: "#1F2937",       // Node backgrounds
+          primaryTextColor: "#22825d" ,   // Node text color
+          primaryBorderColor: '#20755d',
+          lineColor: "#F8B229",          // Arrows / Lines
+          fontFamily: 'Inter, sans-serif',
+          background: "#111827"
+        }
+      });
+    </script>
+  {{ end }}
 </body>
 
 </html>
