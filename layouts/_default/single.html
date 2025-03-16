@@ -19,6 +19,8 @@
         <p class="post__description">{{ .Params.description }}</p>
       {{ end }}
 
+      <p class="post__description">Estimated reading time: {{ .ReadingTime }} min</p>
+
       <div class="post__meta">
 
         {{ if .Params.authors }}
