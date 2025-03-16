@@ -6,16 +6,22 @@ authors: [jsantos]
 image: "/personal-blog/images/intro-to-cdns-hero.png"
 tags: [cdn, fastly, aws, azure, akamai, cloudflare, microsoft, amazon]
 tags_color: '#b77be3'
-featured: true
+featured: false
 toc: true
 ---
-# Introduction to Content Delivery Networks
-
 ## What is a CDN (Content Delivery Network)?
 
 ### The Basic Concept
 
 You might be wondering, what exactly is a CDN? Imagine your website is a famous pizza chain. Without a CDN, every customer would have to travel to your one and only pizza shop—maybe on the other side of the world. That’s slow and frustrating. A CDN solves that by setting up pizza shops (servers) all around the world, so your customers (users) get their pizza (content) hot and fast.
+
+A Content Delivery Network (CDN) is a group of servers located in different parts of the world. These servers help deliver static content, like images, videos, or web pages, to users more quickly. When someone visits a website that uses a CDN, the server that’s closest to them will deliver the content—if it’s already stored there.
+
+Many popular Content Delivery Networks (CDNs) do more than just deliver static content. They also offer important features like DDoS protection, Edge Computing, and Web Application Firewalls (WAF) to improve website security and performance. We’ll dive deeper into these CDN features in future articles, so stay tuned!
+
+## CDN Workflow
+
+The diagram below shows a simple example of how a CDN works.
 
 ```mermaid
 sequenceDiagram
@@ -32,6 +38,17 @@ sequenceDiagram
         CDN-->>Client: Return content
     end
 ```
+1. A person visits a website or tries to load something like an image, video, or web page. Their device sends a request to the CDN to get that content.
+
+2. The CDN checks if it already has a copy of the content saved. This is called "cached."
+
+3. If the content *is* cached:
+    - The CDN sends it back to the person right away.
+
+4. If the content is *not* cached:
+   - The CDN asks the origin server (the main server where the website lives) for the content.
+   - The origin server sends the content back to the CDN.
+   - The CDN then sends the content to the person. It usually saves a copy so it’s ready to go the next time someone asks for it.
 
 ### Why CDNs Matter in Modern Web Applications
 
@@ -56,5 +73,5 @@ Fastly has a **developer-centric approach** and is popular for its **real-time c
 #### 5. Microsoft Azure Front Door
 For organizations already using **Microsoft Azure**, **Azure Front Door** offers **global load balancing**, **application acceleration**, and **advanced security** at the edge. Its seamless integration with the Azure platform makes it an appealing choice for **enterprises looking for scalable and reliable CDN services**.
 
-
-[//]: # (todo create an up next section)
+## What’s Next: Choosing and Setting Up My CDN
+Understanding the basics of a CDN is the first step toward making your website faster, more secure, and scalable. In the next post, I’ll reveal which CDN I chose and walk you through how I set it up from start to finish. Stay tuned—you won’t want to miss it!
