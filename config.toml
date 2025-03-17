@@ -107,7 +107,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   aurhor__section__button__text = "More About Me"
   aurhor__section__button__link = "/about"
   author__section__big__image = "/personal-blog/images/profile-photo-03.jpg"
-  author__section__small__image = "/personal-blog/images/profile-photo-01.jpg"
+  author__section__small__image = "/personal-blog/images/profile-photo-04.jpg"
   author__section__image__alt = "James Santos-Calacat"
 
 
