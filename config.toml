@@ -9,13 +9,8 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Pagination settings:
 
-# For Hugo versions 0.128.0 and above, use the following settings:
-# This will set the number of items per page for newer versions.
 [pagination]
   pagerSize = 7
-
-# For Hugo versions below 0.128.0, uncomment the line below and comment out the [pagination] block above:
-#paginate = 7 # Sets the number of items per page for older versions.
 
 #-------------------------------
 # Main Menu
@@ -95,6 +90,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 
 
+
 #-------------------------------
 # Tag Section Settings
 [params.tag]
@@ -111,7 +107,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   aurhor__section__button__text = "More About Me"
   aurhor__section__button__link = "/about"
   author__section__big__image = "/personal-blog/images/profile-photo-03.jpg"
-  author__section__small__image = "/personal-blog/images/profile-photo-01.jpg"
+  author__section__small__image = "/personal-blog/images/profile-photo-04.jpg"
   author__section__image__alt = "James Santos-Calacat"
 
 

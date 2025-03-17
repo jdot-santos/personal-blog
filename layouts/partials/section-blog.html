@@ -51,7 +51,9 @@
                     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                   </h2>
 
-                  <div class="article__excerpt">{{ if .Description }}{{ .Description }}{{ else }}{{ truncate 78 .Summary | safeHTML }}{{ end }}</div>
+                  <div class="article__excerpt">{{ if .Description }}{{ .Description }}{{ else }}{{ truncate 78 .Summary | safeHTML }}{{ end }}
+                    <p>({{ .ReadingTime }} min read)</p>
+                  </div>
 
                   <div class="article__meta">
 
