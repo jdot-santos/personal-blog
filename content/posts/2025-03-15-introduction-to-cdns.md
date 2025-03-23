@@ -1,7 +1,7 @@
 ---
 title: Introduction to Content Delivery Networks 
 description: Overview of Content Delivery Networks, or CDNs.
-date: 2025-03-12 22:19:00 -0700 # date affects if it shows up or not
+date: 2025-03-12 22:19:00 -0700
 authors: [jsantos]
 image: "/personal-blog/images/intro-to-cdns-hero.png"
 tags: [cdn, fastly, aws, azure, akamai, cloudflare, microsoft, amazon]
