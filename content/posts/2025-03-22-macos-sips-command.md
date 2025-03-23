@@ -50,10 +50,10 @@ No need for Photoshop or Preview.
 For those moments when you need your image to shrink (or grow), `sips` can resize by pixel dimensions:
 
 ```bash
-sips -z 600 800 myimage.jpg
+sips -z 600 800 myimage.jpg --out small_image.jpg
 ```
 
-That scales the image to 600 pixels high and 800 pixels wide. Fast, easy, and it eliminates the need to a GUI.
+The example above resizes the image to 600 x 800 pixels and outputs the result to a file. Big image files can slow down your site, but quickly shrinking them to a web-friendly size helps your pages load faster. It’s simple, fast, and you don’t need to mess with any fancy apps.
 
 ### **Advanced `sips` Operations**
 
@@ -81,14 +81,6 @@ Rotate an image 90 degrees clockwise? Yep, you can do that too:
 sips -r 90 myimage.jpg
 ```
 
-#### **Resizing Images for Web Uploads**
-
-Large image files can slow down your site. Quickly resizing them to web-friendly dimensions keeps your page loads snappy.
-
-```bash
-sips -z 500 500 big_image.jpg --out small_image.jpg
-```
-
 #### **Converting a Folder of PNGs to JPEGs**
 
 Save bandwidth by converting PNGs to JPEGs in bulk:
@@ -99,13 +91,9 @@ for img in *.png; do
 done
 ```
 
-#### **Automating Tasks with Shell Scripts**
-
-If you’re handling repetitive image processing—like resizing thumbnails for blog posts—you can automate `sips` commands in a shell script. It’s fast, predictable, and doesn’t care if you’re juggling a coffee while working.
-
 ### **Conclusion**
 
-For macOS users, `sips` is a hidden gem. It may not replace Photoshop or Affinity Photo, but it sure makes quick and dirty image manipulation easy—without leaving the terminal. Whether you're a developer, blogger, or just someone looking to resize some vacation photos, `sips` has your back.
+For macOS users, `sips` is a hidden gem. It may not replace Photoshop or Affinity Photo, but it sure makes quick and dirty image manipulation easy without leaving the terminal. Whether you're a developer, blogger, or just someone looking to resize some vacation photos, `sips` is a great option to have in your toolbelt.
 
 ##### Hero Image Prompt
 
