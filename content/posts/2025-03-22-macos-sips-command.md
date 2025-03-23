@@ -1,7 +1,7 @@
 ---
 title: Converting Images in macOS using sips 
-description: Overview of Content Delivery Networks, or CDNs.
-date: 2025-03-22 21:19:00 -0700 # date affects if it shows up or not
+description: Overview and usage of the macOS sips command.
+date: 2025-03-22 21:19:00 -0700
 authors: [jsantos]
 image: "/personal-blog/images/macos-sips-command.jpg"
 tags: [images, macos, photos, terminal]
