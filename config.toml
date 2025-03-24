@@ -87,6 +87,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   enable = true
   blog__title = "Latest Posts"
   blog__description = ""
+  blog__url = "/personal-blog/posts/"
 
 
 
@@ -105,7 +106,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   author__section__title = "Hello, my name is James. I’m a Site Reliability Engineer, Bodybuilder, and drummer."
   author__section__description = ""
   aurhor__section__button__text = "More About Me"
-  aurhor__section__button__link = "/about"
+  aurhor__section__button__link = "/personal-blog/about/"
   author__section__big__image = "/personal-blog/images/profile-photo-03.jpg"
   author__section__small__image = "/personal-blog/images/profile-photo-04.jpg"
   author__section__image__alt = "James Santos-Calacat"
