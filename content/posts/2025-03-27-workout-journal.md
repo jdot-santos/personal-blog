@@ -19,7 +19,7 @@ I felt the best I’ve felt physically in a long time. Sure, I’m still nursing
 
 ## Light Weight Baby!
 
-> _Slow and steady wins the race_
+> _Consistency carves the masterpiece_
 
 Today’s workout wasn’t about pushing plates. It was about pacing. I went lighter than I’ve gone in a long time—and I couldn’t be happier about it.
 
