@@ -3,8 +3,8 @@ title: Introduction to Content Delivery Networks
 description: Overview of Content Delivery Networks, or CDNs.
 date: 2025-03-12 22:19:00 -0700
 authors: [jsantos]
-image: "/personal-blog/images/intro-to-cdns-hero.png"
-tags: [cdn, fastly, aws, azure, akamai, cloudflare, microsoft, amazon]
+image: "/personal-blog/images/intro-to-cdns-hero.jpg"
+tags: [CDN, fastly, aws, azure, akamai, cloudflare, microsoft, amazon, sre, caching, Content Delivery Network]
 tags_color: '#b77be3'
 featured: false
 toc: true

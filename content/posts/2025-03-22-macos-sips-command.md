@@ -1,25 +1,21 @@
 ---
-title: Converting Images in macOS using sips 
+title: Converting Images in macOS using the 'sips' command
 description: Overview and usage of the macOS sips command.
 date: 2025-03-22 21:19:00 -0700
 authors: [jsantos]
 image: "/personal-blog/images/macos-sips-command.jpg"
-tags: [images, macos, photos, terminal]
+tags: [images, macOS, photos, terminal, sips, converting images]
 tags_color: '#b77be3'
 featured: false
 toc: true
 ---
-
-## **The macOS `sips` Command: A Handy Tool You Didn’t Know You Needed**
-
-### **Introduction to the `sips` Command**
 
 Ever stumbled across a folder of massive images that need resizing, or wanted to convert a batch of HEICs or PNGs into JPEGs without firing up heavy software? If you're on macOS, there’s a lightweight hero ready to help—meet `sips`.
 
 
 `sips`, short for **Scriptable Image Processing System**, is a built-in macOS command-line utility designed to make simple image manipulation tasks a breeze. Whether you’re resizing, converting, or tweaking images, `sips` delivers no-nonsense results right from the terminal.
 
-### **Basic Usage of `sips`**
+### **Basic Usage**
 
 #### **Viewing Image Metadata**
 
