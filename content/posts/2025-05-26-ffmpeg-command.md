@@ -5,7 +5,7 @@ date: 2025-05-25 22:27:00 -0700
 authors: [jsantos]
 image: "/personal-blog/images/ffmpeg-command-hero.jpg"
 tags: [Command Line Tools, MacOS, video conversion, audio extraction, CLI, mp3, open source, homebrew, file format conversion, Linux, ffmpeg, WAV, MP4]
-tags_color: '#9bf542'
+tags_color: '#5e8f2c'
 featured: false
 toc: true
 ---

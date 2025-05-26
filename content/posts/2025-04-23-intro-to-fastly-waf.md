@@ -5,7 +5,7 @@ date: 2025-05-08 02:30:00 -0700
 authors: [jsantos]
 image: "/personal-blog/images/fastly-waf-intro-hero.jpg"
 tags: [fastly, WAF, CDN, Next-Gen WAF, Application Security, DevSecOps, Bot Protection, Site Reliability Engineering, Terraform, Infrastructure as Code, IAC]
-tags_color: '#9bf542'
+tags_color: '#5e8f2c'
 featured: false
 toc: true
 ---
