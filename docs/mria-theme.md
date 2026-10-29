@@ -44,6 +44,182 @@ Most behavior is controlled by `config.toml`. Each home-page section is a `[para
 > - The `aurhor__` misspelling is the vendor's. `layouts/partials/section-author.html` reads the same spelling, so rename both or neither.
 > - `baseURL` has a `/personal-blog/` subpath, so links and images in config and front matter repeat that prefix.
 
+### Examples
+
+Values come from this repo's `config.toml`, except `[params.videos]`, which comes from git history.
+
+**Top level**
+
+```toml
+baseURL = "https://www.jsantosc.com/personal-blog/"
+languageCode = "en-us"
+title = "JSC"
+googleAnalytics = ""
+```
+
+**`[pagination]`**
+
+```toml
+[pagination]
+  pagerSize = 7
+```
+
+**`[menu]`** (one entry of each kind shown)
+
+```toml
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.footer]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
+```
+
+**`[params]`**
+
+```toml
+[params]
+  logo = ""
+  logo_dark = ""
+  description = ""
+  color_scheme = "auto"
+```
+
+**`[params.hero]`**
+
+```toml
+[params.hero]
+  enable = true
+  hero__title = "James Santos-Calacat"
+  hero__description = "I assist software engineering teams as a Software and Site Reliability Engineer..."
+  hero__image = ""
+```
+
+**`[params.blog]`**
+
+```toml
+[params.blog]
+  enable = true
+  blog__title = "Latest Posts"
+  blog__description = ""
+  blog__url = "/personal-blog/posts/"
+```
+
+**`[params.videos]`** (removed from this repo)
+
+```toml
+[params.videos]
+  enable = true
+  videos__title = "Latest Videos"
+  videos__description = ""
+```
+
+**`[params.tag]`**
+
+```toml
+[params.tag]
+  enable = false
+  tag = "software-engineering"
+```
+
+**`[params.author_section]`**
+
+```toml
+[params.author_section]
+  enable = true
+  author__section__title = "Hello, my name is James. I’m a Site Reliability Engineer, Bodybuilder, and drummer."
+  author__section__description = ""
+  aurhor__section__button__text = "More About Me"
+  aurhor__section__button__link = "/personal-blog/about/"
+  author__section__big__image = "/personal-blog/images/profile-photo-03.jpg"
+  author__section__small__image = "/personal-blog/images/profile-photo-04.jpg"
+  author__section__image__alt = "James Santos-Calacat"
+```
+
+**`[params.mailchimp]`**
+
+```toml
+[params.mailchimp]
+  enable = false
+  mailchimp__title = "Get interesting news"
+  mailchimp__description = "Subscribe to our newsletter and we’ll send you the emails of latest posts."
+  mailchimp__identifier = ""
+  mailchimp__input__text = "Your email address"
+  mailchimp__button__text = "Subscribe"
+  mailchimp__background__image = "https://placehold.co/1920x1080"
+```
+
+**`[params.footer]`**
+
+```toml
+[params.footer]
+  footer__description = "You never know how strong you are, until being strong is your only choice"
+```
+
+**`[[params.social]]`**
+
+```toml
+[[params.social]]
+icon = "fa-brands fa-linkedin"
+name = "LinkedIn"
+link = "https://www.linkedin.com/in/jsantosc/"
+```
+
+**`[params.contact]`**
+
+```toml
+[params.contact]
+  form_id = "xeoaqnzw"
+```
+
+**`[params.disqus]`**
+
+```toml
+[params.disqus]
+  enable = false
+  disqusShortname = ""
+```
+
+**`[taxonomies]`**
+
+```toml
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+```
+
+**`[markup]`**
+
+```toml
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.tableOfContents]
+    startLevel = 2
+    ordered = false
+    endLevel = 3
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
+```
+
+**`[outputs]`**
+
+```toml
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+```
+
 ## Authors
 
 1. Create `content/authors/<slug>/_index.md`. The leading underscore is required.
@@ -92,7 +268,7 @@ Any Markdown file in `content/` becomes a page. Pages use only `title` and `imag
 
 ## Projects
 
-The vendor table of contents lists a Projects section but has no text for it. The only content is a front matter example with `title`, `date`, `subtitle`, and `image`.
+The vendor table of contents links to a Projects section, but the docs have no such section. The only trace is an image the docs never reference (`assets/img/project.png`), which shows a front matter example with `title`, `date`, `subtitle`, and `image`.
 
 > **In this repo:** There's no projects layout or content, so this is unused.
 
