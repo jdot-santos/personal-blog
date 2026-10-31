@@ -77,7 +77,7 @@ Landing zones: routes derive from `content/`; new home section = new `partials/s
 
 No cron/queue flows.
 
-### Trace: publish a post
+### Trace: publish post
 
 1. `hugo new` uses `archetypes/default.md:1-6` (title, date, `image: "/images/"`, empty tags). No `authors`, `description`, `toc`, `featured`.
 2. Real posts add those by hand (`content/posts/2025-09-29-git-rebase.md:2-10`).
@@ -98,7 +98,7 @@ Silent failures: author typo hides author (`with` at `single.html:29`); missing 
 - Home sections: `layouts/partials/section-*.html`, each guarded by `[params.<name>] enable`.
 - BEM-ish CSS; SCSS split `0-settings` to `4-layouts`.
 - Author/tag markup is duplicated across `single.html`, `section-blog.html`, `article.html`; looks inherited from a theme, not deliberate.
-- `aurhor__section__button__*` misspelling in config (Inferred: template reads the same spelling; `section-author.html` not opened). Don't fix one side only.
+- `aurhor__section__button__*` is misspelled in config, and `layouts/partials/section-author.html:21` reads the same spelling. Don't fix one side only.
 - ADRs/specs: none.
 - Rules an agent couldn't derive (all `Inferred:`):
   - Front matter image paths must start with `/personal-blog/`.
